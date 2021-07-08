@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "VK fix",
+  "version": "1.0.0",
+  "icons": {
+       "128": "128.png"
+   },
+   "content_scripts": [
+       {
+           "matches": [ "https://vk.com/*" ],
+           "js": [ "app.js" ]
+       }
+   ]
+}
